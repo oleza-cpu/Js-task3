@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <Div>
+        <h1> Hello World</h1>
+    </Div>
+    <script type="text/javascript">
+function findDifferentNumberIndex(numbers) {
+    
+    let sum = numbers.slice(0, 3).reduce((acc, curr) => acc + curr, 0);
+
+    if (sum === numbers[3]) {
+        return 3; 
+    } else {
+        
+        for (let i = 0; i < 3; i++) {
+            if (numbers[i] !== sum) {
+                return i;
+            }
+        }
+    }
+}
+
+
+const numbers = [2, 2, 2, 3]; 
+const differentIndex = findDifferentNumberIndex(numbers);
+console.log("Порядковий номер числа, відмінного від інших: " + (differentIndex + 1)); 
+
+
+
+ 
+
+        </script>
+</body>
+</html>
