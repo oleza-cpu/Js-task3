@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <Div>
+        <h1> Hello World</h1>
+    </Div>
+    <script type="text/javascript">
+function sumIntegers(a, b) {
+    let sum = 0;
+   
+    for (let i = a; i <= b; i++) {
+        sum += i;
+    }
+    return sum;
+}
+
+
+const a = 1; 
+const b = 5; 
+const result = sumIntegers(a, b);
+console.log("Сума цілих чисел від " + a + " до " + b + " включно: " + result);
+
+
+        </script>
+</body>
+</html>
