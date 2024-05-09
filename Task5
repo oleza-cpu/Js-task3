@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <Div>
+        <h1> Hello World</h1>
+    </Div>
+    <script type="text/javascript">
+function describeGrade(k) {
+    switch (k) {
+        case 1:
+            return "погано";
+        case 2:
+            return "незадовільно";
+        case 3:
+            return "задовільно";
+        case 4:
+            return "добре";
+        case 5:
+            return "відмінно";
+        default:
+            return "помилка";
+    }
+}
+
+
+const k = 3; 
+const gradeDescription = describeGrade(k);
+console.log("Оцінка: " + gradeDescription);
+ 
+
+
+
+ 
+
+        </script>
+</body>
+</html>
