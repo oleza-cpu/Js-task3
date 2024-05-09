@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <Div>
+        <h1> Hello World</h1>
+    </Div>
+    <script type="text/javascript">
+let number = 5;
+
+if (number > 0) {
+  number += 1;
+} else if (number < 0) {
+  number -= 2;
+} else {
+  number = 10;
+}
+
+console.log(number);
+
+
+ 
+
+        </script>
+</body>
+</html>
