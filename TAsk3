@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <Div>
+        <h1> Hello World</h1>
+    </Div>
+    <script type="text/javascript">
+let number = -7;
+let description;
+
+if (number === 0) {
+  description = "нульове число";
+} else if (number > 0) {
+  if (number % 2 === 0) {
+    description = "додатне парне число";
+  } else {
+    description = "додатне непарне число";
+  }
+} else {
+  if (number % 2 === 0) {
+    description = "від’ємне парне число";
+  } else {
+    description = "від’ємне непарне число";
+  }
+}
+
+console.log(description);
+
+
+
+ 
+
+        </script>
+</body>
+</html>
